@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4068" started-at="2016-10-06T20:09:19Z" finished-at="2016-10-06T20:09:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4068" started-at="2016-10-06T20:09:19Z" finished-at="2016-10-06T20:09:23Z">
+      <class name="itunesSearchTest.SearchAPITest">
+        <test-method status="PASS" signature="searchEmptyParameters()[pri:0, instance:itunesSearchTest.SearchAPITest@48eff760]" name="searchEmptyParameters" duration-ms="2924" started-at="2016-10-06T20:09:19Z" finished-at="2016-10-06T20:09:21Z">
+        </test-method> <!-- searchEmptyParameters -->
+        <test-method status="PASS" signature="searchInvalidTermCountryMediaLimit(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:itunesSearchTest.SearchAPITest@48eff760]" name="searchInvalidTermCountryMediaLimit" duration-ms="239" started-at="2016-10-06T20:09:22Z" finished-at="2016-10-06T20:09:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- searchInvalidTermCountryMediaLimit -->
+        <test-method status="PASS" signature="searchValidTerm(java.lang.String)[pri:0, instance:itunesSearchTest.SearchAPITest@48eff760]" name="searchValidTerm" duration-ms="355" started-at="2016-10-06T20:09:22Z" finished-at="2016-10-06T20:09:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack+johnson]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- searchValidTerm -->
+        <test-method status="PASS" signature="searchvalidTermCountryMediaLimit(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:itunesSearchTest.SearchAPITest@48eff760]" name="searchvalidTermCountryMediaLimit" duration-ms="516" started-at="2016-10-06T20:09:22Z" finished-at="2016-10-06T20:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack+johnson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[movie]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- searchvalidTermCountryMediaLimit -->
+      </class> <!-- itunesSearchTest.SearchAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="Term" value="jack+johnson"></parameter>
+    <parameter name="Country" value="US"></parameter>
+    <parameter name="Media" value="movie"></parameter>
+    <parameter name="Limit" value="25"></parameter>   
+    <parameter name="TermInvalid" value=""></parameter>
+    <parameter name="CountryInvalid" value="xyz"></parameter>
+    <parameter name="MediaInvalid" value="xyz"></parameter>
+    <parameter name="LimitInvalid" value="0"></parameter>   
+    
+  <test name="Test">
+      <classes>
+          <class name="itunesSearchTest.SearchAPITest"></class>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
